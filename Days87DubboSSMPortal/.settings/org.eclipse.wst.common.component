@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Days87DubboSSMPortal-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="Days87DubboSSMContentInterface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Days87DubboSSMContentInterface/Days87DubboSSMContentInterface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Days87DubboSSMDao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Days87DubboSSMDao/Days87DubboSSMDao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Days87DubboSSMPojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Days87DubboSSMPojo/Days87DubboSSMPojo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Days87DubboSSMPortal"/>
+        <property name="java-output-path" value="/Days87DubboSSMPortal/target/classes"/>
+    </wb-module>
+</project-modules>
